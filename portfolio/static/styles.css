@@ -1,0 +1,150 @@
+/* Global Dark Theme */
+body {
+    background: #0d0d0d;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #111;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    color: #00eaff;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-btn {
+    background: #00eaff;
+    padding: 8px 18px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.nav-btn:hover {
+    opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #00eaff;
+}
+
+.subtitle {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #222;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #00eaff;
+    box-shadow: 0 0 10px #00eaff;
+}
+
+.card h3 {
+    color: #00eaff;
+    margin-top: 0;
+}
+
+/* Contact Form */
+.contact-section {
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-form {
+    background: #111;
+    display: inline-block;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #00eaff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    margin-top: 60px;
+}
